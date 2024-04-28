@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/gunung"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bawah"
+        android:layout_width="447dp"
+        android:layout_height="574dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-47dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-78dp"
+        app:srcCompat="@drawable/bawah" />
+
+    <ImageView
+        android:id="@+id/botol"
+        android:layout_width="331dp"
+        android:layout_height="702dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="-323dp"
+        app:srcCompat="@drawable/produk" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="659dp"
+        android:layout_height="816dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-108dp"
+        android:layout_marginTop="-161dp"
+        android:layout_marginEnd="-147dp"
+        android:layout_marginBottom="92dp"
+        app:srcCompat="@drawable/logogabung" />
+
+    <ImageView
+        android:id="@+id/kebaikan"
+        android:layout_width="209dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="388dp"
+        app:srcCompat="@drawable/tulisan" />
+
+    <ImageView
+        android:id="@+id/terpercaya"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="329dp"
+        app:srcCompat="@drawable/tulisanbawah" />
+
+    <ImageButton
+        android:id="@+id/keloginreg"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="259dp"
+        android:background="@drawable/tombol"
+        app:srcCompat="@drawable/tombol" />
+
+
+</RelativeLayout>
+
+
